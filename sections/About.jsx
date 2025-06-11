@@ -1,6 +1,6 @@
 'use client';
 import { motion } from 'framer-motion';
-import { TypingText } from '../components';
+import { TypingText } from '../components/CustomTexts.jsx';
 import { slideIn, staggerContainer } from '../utils/motion.js';
 import styles from '../styles';
 
