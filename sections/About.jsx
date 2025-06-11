@@ -1,7 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import { TypingText } from '../components/CustomTexts.jsx';
-import { slideIn, staggerContainer } from '../utils/motion.js';
+import { fadeIn, slideIn, staggerContainer } from '../utils/motion.js';
 import styles from '../styles';
 
 const About = () => (
@@ -16,22 +16,37 @@ const About = () => (
     >
       <TypingText title="| About Metaverses" textStyles="text-center" />
       <motion.p
-        variants={slideIn('up', 'tween', 0.2, 1)}
-        className="mt-2 font-normal text-[20px] text-center text-secondary-white"
+        variants={fadeIn('up', 'tween', 0.2, 1)}
+        className="mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white"
       >
-        The metaverse is a collective virtual space that merges physical and digital realities, enabling immersive experiences and interactions.
+        <span className="font-extrabold text-white">Metaverse</span> is a new
+        thing in the future, where you can enjoy the virtual world by feeling
+        like it's really real, you can feel what you feel in this metaverse
+        world, because this is really the{' '}
+        <span className="font-extrabold text-white">
+          madness of the metaverse
+        </span>{' '}
+        of today, using only{' '}
+        <span className="font-extrabold text-white">VR</span> devices you can
+        easily explore the metaverse world you want, turn your dreams into
+        reality. Let's{' '}
+        <span className="font-extrabold text-white">explore</span> the madness
+        of the metaverse by scrolling down
       </motion.p>
-    </motion.div>
-    <motion.div
-      variants={slideIn('up', 'tween', 0.2, 1)}
-      className="mt-10 flex justify-center items-center"
-    >
-      <img
+      <motion.img
+        variants={fadeIn('up', 'tween', 0.2, 1)}
         src="/about-image.png"
         alt="About Metaverse"
         className="w-full sm:h-[500px] h-[350px] object-cover rounded-lg shadow-lg"
       />
+      <motion.img
+        variants={fadeIn('up', 'tween', 0.3, 1)}
+        src="/arrow-down.svg"
+        alt="arrow down"
+        className="w-[18px] h-[28px] object-contain mt-[28px]"
+      />
     </motion.div>
+
   </section>
 );
 export default About;
