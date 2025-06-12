@@ -21,13 +21,13 @@ const World = () => (
       />
       <motion.div
         variants={fadeIn('up', 'tween', 0.3, 1)}
-        className="relative mt-[68px] flex w-full h-[550px]"
+        className="relative mt-[68px] flex w-full h-[220px] sm:h-[350px] md:h-[550px]"
         style={{ background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%)' }}
       >
         <img
           src="/map.png"
           alt="map"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-contain"
         />
         <div className="absolute bottom-20 right-20 w-[70px] h-[70px] p-[6px] 
         rounded-full bg-[#5d6680]">
@@ -55,9 +55,12 @@ const World = () => (
         </div>
         <motion.div
           variants={fadeIn('up', 'tween', 0.4, 1)}
-          className="absolute bottom-5 left-1/2 transform -translate-x-1/2 bg-white bg-opacity-20 backdrop-blur-md p-4 rounded-lg shadow-lg"
+          className="absolute bottom-5 inset-x-0 mx-auto bg-white bg-opacity-20 
+    backdrop-blur-md p-2 sm:p-4 rounded-lg shadow-lg max-w-xs sm:max-w-md w-full"
         >
-          <p className="text-white text-center">Join the adventure with friends!</p>
+          <p className="text-white text-center text-sm sm:text-base break-words">
+            Join the adventure with friends!
+          </p>
         </motion.div>
       </motion.div>
     </motion.div>
