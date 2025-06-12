@@ -54,7 +54,8 @@ const Feedback = () => (
       </motion.div>
       <motion.div
         variants={fadeIn('right', 'tween', 0.2, 1)}
-        className="flex-[0.75] flex flex-col justify-center"
+        className="flex-[0.5] lg:max-w-[370px] flex flex-col justify-end 
+        gradient-05 sm:p-8 p-4 rounded-[32px] border-[1px] border-[#6a6a6a] relative"
       >
         <TypingText title="| Join the Conversation" />
         <TitleText title={<>Share your thoughts with us</>} />

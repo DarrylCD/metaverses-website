@@ -21,7 +21,7 @@ const World = () => (
       />
       <motion.div
         variants={fadeIn('up', 'tween', 0.3, 1)}
-        className="relative mt-[68px] flex w-full h-[550px] overflow-hidden"
+        className="relative mt-[68px] flex w-full h-[550px]"
         style={{ background: 'linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%)' }}
       >
         <img
