@@ -26,5 +26,6 @@ const Page = () => (
 );
 
 export default Page;
+// copied from /app/page.js
 // This code is the main entry point for a Next.js application that renders a series of sections
 // including a navigation bar, hero section, and various content sections like About, Explore, Get Started, Whats New, World, Insights, Feedback, and Footer.

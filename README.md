@@ -1,4 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌌 Metaverses – Immersive Web Demo
+
+**Metaverses** is a sleek, animated website built with the latest frontend technologies to showcase my web development skills. It delivers a futuristic UI with smooth transitions, responsive layouts, and interactive motion — perfect for portfolio-style presentation sites.
+
+---
+
+## 🚀 Features
+
+- ⚡ Built with **Next.js 13 (App Router)**
+- 🎨 Styled using **Tailwind CSS**
+- 🎞️ Page and component animations via **Framer Motion**
+- 💡 Responsive and modern layout
+- 🌐 Deployed-ready structure for static hosting or SSR
+
+---
+
+## 🛠️ Tech Stack
+
+| Tech         | Purpose                     |
+|--------------|-----------------------------|
+| [Next.js 13](https://nextjs.org/)     | Framework for React, App Router enabled |
+| [Tailwind CSS](https://tailwindcss.com/) | Utility-first styling |
+| [Framer Motion](https://www.framer.com/motion/) | Smooth page/component transitions |
+
+---
+
+## 📸 Preview
+
+| Homepage | About | Worlds |
+|:--:|:--:|:--:|
+| ![Home](https://cdn.imgchest.com/files/7ogcbkr6aly.png) | ![About](https://cdn.imgchest.com/files/7bwckd3p6k7.png) | ![Worlds](https://cdn.imgchest.com/files/4nec8mbqzz4.png) |
+
+---
 
 ## Getting Started
 
@@ -25,10 +57,8 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
 ## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This Next.js app can be deployed using the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
