@@ -4,6 +4,12 @@
 
 ---
 
+## 🌐 Live Demo
+
+👉 [discovermetaverses site](https://discovermeataverses.netlify.app/)
+
+---
+
 ## 🚀 Features
 
 - ⚡ Built with **Next.js 13 (App Router)**
@@ -57,8 +63,18 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## Deploy on Vercel
+## 🚀 Deploy on Netlify
 
-This Next.js app can be deployed using the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is deployed on [Netlify](https://www.netlify.com/).
 
-Check out [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+To deploy your own version:
+
+1. **Fork** this repository.
+2. **Connect** the repo to Netlify via the dashboard.
+3. Set the following build settings:
+   - **Build command:** `npm run build`
+   - **Publish directory:** `out`
+4. **Deploy 🚀**
+
+For more details, see the [Netlify Next.js Docs](https://docs.netlify.com/integrations/frameworks/next-js/).
+
