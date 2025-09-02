@@ -1,6 +1,6 @@
 # 🌌 Metaverses – Immersive Web Demo
 
-**Metaverses** is a sleek, animated website built with the latest frontend technologies to showcase my web development skills. It delivers a futuristic UI with smooth transitions, responsive layouts, and interactive motion — perfect for portfolio-style presentation sites.
+**Metaverses** is a sleek, animated website built with the latest frontend technologies to showcase my web development skills. It delivers a futuristic UI with smooth transitions, responsive layouts, and interactive motion. Perfect for portfolio-style presentation sites.
 
 ---
 
