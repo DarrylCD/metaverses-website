@@ -1,13 +1,6 @@
 "use client";
-
 import { motion } from "framer-motion";
 import React from "react";
-// import styles from '../styles';
-// import { usePathname } from 'next/navigation';
-// import { useEffect } from 'react';
-// import { useRouter } from 'next/router';
-// import { useState } from 'react';
-// import { useTheme } from 'next-themes';
 import { navVariants } from "../utils/motion.js";
 
 const Navbar = () => (
