@@ -1,18 +1,18 @@
-'use client';
-import { motion } from 'framer-motion';
-import { useState } from 'react';
-import { TypingText, ExploreCard, TitleText } from '../components';
-import { staggerContainer } from '../utils/motion.js';
-import styles from '../styles';
-import { exploreWorlds } from '../constants';
+"use client";
+import { motion } from "framer-motion";
+import { useState } from "react";
+import { TypingText, ExploreCard, TitleText } from "../components";
+import { staggerContainer } from "../utils/motion.js";
+import styles from "../styles";
+import { exploreWorlds } from "../constants";
 
 const Explore = () => {
-
-  const [active, setActive] = useState(''); // State to track the active card
+  const [active, setActive] = useState(""); // State to track the active card
 
   return (
-    <section className={`${styles.paddings}`}
-      id="explore"> {/* Added id for navigation */}
+    <section className={`${styles.paddings}`} id="explore">
+      {" "}
+      {/* Added id for navigation */}
       <motion.div
         variants={staggerContainer}
         initial="hidden"
@@ -31,8 +31,10 @@ const Explore = () => {
           }
           textStyles="text-center"
         />
-        <div className="mt-[50px] flex lg:flex-row flex-col 
-      min-h-[70vh] gap-5 overflow-x-auto">
+        <div
+          className="mt-[50px] flex lg:flex-row flex-col 
+      min-h-[70vh] gap-5 overflow-x-auto"
+        >
           {exploreWorlds.map((world, index) => (
             <ExploreCard
               key={world.id}

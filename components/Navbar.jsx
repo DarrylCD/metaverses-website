@@ -1,20 +1,20 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import React from 'react';
+import { motion } from "framer-motion";
+import React from "react";
 // import styles from '../styles';
 // import { usePathname } from 'next/navigation';
 // import { useEffect } from 'react';
 // import { useRouter } from 'next/router';
 // import { useState } from 'react';
 // import { useTheme } from 'next-themes';
-import { navVariants } from '../utils/motion.js';
+import { navVariants } from "../utils/motion.js";
 
 const Navbar = () => (
   <motion.nav
     variants={navVariants}
     initial="hidden"
-    whileInView={'show'}
+    whileInView={"show"}
     className="px-6 sm:px-16 py-8 relative"
   >
     <div className="absolute w-[50%] inset-0 gradient-01" />

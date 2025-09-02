@@ -16,18 +16,18 @@
 
 ## 🛠️ Tech Stack
 
-| Tech         | Purpose                     |
-|--------------|-----------------------------|
-| [Next.js 13](https://nextjs.org/)     | Framework for React, App Router enabled |
-| [Tailwind CSS](https://tailwindcss.com/) | Utility-first styling |
-| [Framer Motion](https://www.framer.com/motion/) | Smooth page/component transitions |
+| Tech                                            | Purpose                                 |
+| ----------------------------------------------- | --------------------------------------- |
+| [Next.js 13](https://nextjs.org/)               | Framework for React, App Router enabled |
+| [Tailwind CSS](https://tailwindcss.com/)        | Utility-first styling                   |
+| [Framer Motion](https://www.framer.com/motion/) | Smooth page/component transitions       |
 
 ---
 
 ## 📸 Preview
 
-| Homepage | About | Worlds |
-|:--:|:--:|:--:|
+|                        Homepage                         |                          About                           |                          Worlds                           |
+| :-----------------------------------------------------: | :------------------------------------------------------: | :-------------------------------------------------------: |
 | ![Home](https://cdn.imgchest.com/files/7ogcbkr6aly.png) | ![About](https://cdn.imgchest.com/files/7bwckd3p6k7.png) | ![Worlds](https://cdn.imgchest.com/files/4nec8mbqzz4.png) |
 
 ---
